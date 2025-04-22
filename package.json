@@ -1,0 +1,19 @@
+{
+  "name": "spotify-artist-search",
+  "version": "1.0.0",
+  "description": "A web app to search for artists and find their most played songs on Spotify",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "open": "^10.1.0",
+    "puppeteer": "^24.6.1",
+    "querystring": "^0.2.1"
+  }
+}

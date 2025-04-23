@@ -4,6 +4,8 @@ const axios = require('axios');
 const dotenv = require('dotenv');
 const path = require('path');
 const querystring = require('querystring');
+const getArtistNames = require('./scraper');
+
 
 // Load environment variables
 dotenv.config();
@@ -184,51 +186,95 @@ app.get('/api/search', async (req, res) => {
 
 async function getTopArtists(userId) {
     if (!userId || !userTokens.has(userId)) {
+        console.error('User not authenticated:', { userId, hasToken: userTokens.has(userId) });
         throw new Error('User not authenticated');
     }
 
     const userToken = userTokens.get(userId);
-
-    if (Date.now() >= userToken.expires_at) {
-        const response = await axios.post('https://accounts.spotify.com/api/token', 
-            querystring.stringify({
-                grant_type: 'refresh_token',
-                refresh_token: userToken.refresh_token
-            }),
-            {
-                headers: {
-                    'Authorization': 'Basic ' + (Buffer.from(SPOTIFY_CLIENT_ID + ':' + SPOTIFY_CLIENT_SECRET).toString('base64')),
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                }
-            }
-        );
-
-        userToken.access_token = response.data.access_token;
-        userToken.expires_at = Date.now() + (response.data.expires_in * 1000);
-    }
-
-    const topArtistsResponse = await axios.get('https://api.spotify.com/v1/me/top/artists?limit=50', {
-        headers: {
-            'Authorization': `Bearer ${userToken.access_token}`
-        }
+    console.log('User token status:', { 
+        userId, 
+        hasAccessToken: !!userToken.access_token,
+        hasRefreshToken: !!userToken.refresh_token,
+        expiresAt: new Date(userToken.expires_at).toISOString(),
+        currentTime: new Date().toISOString()
     });
 
-    return topArtistsResponse.data.items.map(artist => ({
-        name: artist.name,
-        image: artist.images[0]?.url,
-        genres: artist.genres,
-        url: artist.external_urls.spotify
-    }));
+    if (Date.now() >= userToken.expires_at) {
+        console.log('Token expired, refreshing...');
+        try {
+            const response = await axios.post('https://accounts.spotify.com/api/token', 
+                querystring.stringify({
+                    grant_type: 'refresh_token',
+                    refresh_token: userToken.refresh_token
+                }),
+                {
+                    headers: {
+                        'Authorization': 'Basic ' + (Buffer.from(SPOTIFY_CLIENT_ID + ':' + SPOTIFY_CLIENT_SECRET).toString('base64')),
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                }
+            );
+
+            userToken.access_token = response.data.access_token;
+            userToken.expires_at = Date.now() + (response.data.expires_in * 1000);
+            console.log('Token refreshed successfully');
+        } catch (error) {
+            console.error('Error refreshing token:', error.response?.data || error.message);
+            throw new Error('Failed to refresh token');
+        }
+    }
+
+    try {
+        const topArtistsResponse = await axios.get('https://api.spotify.com/v1/me/top/artists?limit=50', {
+            headers: {
+                'Authorization': `Bearer ${userToken.access_token}`
+            }
+        });
+
+        return topArtistsResponse.data.items.map(artist => ({
+            name: artist.name,
+            image: artist.images[0]?.url,
+            genres: artist.genres,
+            url: artist.external_urls.spotify
+        }));
+    } catch (error) {
+        console.error('Error fetching top artists from Spotify:', {
+            status: error.response?.status,
+            data: error.response?.data,
+            message: error.message
+        });
+        throw new Error('Failed to fetch top artists from Spotify');
+    }
 }
 
 app.get('/api/top-artists', async (req, res) => {
     try {
         const { userId } = req.query;
+        if (!userId) {
+            return res.status(400).json({ error: 'User ID is required' });
+        }
+        
         const topArtists = await getTopArtists(userId);
         res.json({ topArtists });
     } catch (error) {
-        console.error('Error fetching top artists:', error);
-        res.status(500).json({ error: 'Failed to get top artists' });
+        console.error('Error in top-artists endpoint:', error.message);
+        if (error.message === 'User not authenticated') {
+            res.status(401).json({ error: 'User not authenticated' });
+        } else if (error.message === 'Failed to refresh token') {
+            res.status(401).json({ error: 'Authentication expired. Please log in again.' });
+        } else {
+            res.status(500).json({ error: 'Failed to get top artists' });
+        }
+    }
+});
+
+app.get('/api/upcoming-artists', async (req, res) => {
+    try {
+        const artists = await getArtistNames();
+        res.json({ upcomingArtists: artists.map(name => ({ name })) });
+    } catch (error) {
+        console.error('Error fetching upcoming artists:', error);
+        res.status(500).json({ error: 'Failed to get upcoming artists' });
     }
 });
 
@@ -241,5 +287,7 @@ if (require.main === module) {
         console.log(`Server running at http://localhost:${port}`);
     });
 }
+
+
 
 module.exports = { getTopArtists };

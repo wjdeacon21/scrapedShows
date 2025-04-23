@@ -10,7 +10,8 @@ const DOM_ELEMENTS = {
     loading: document.getElementById('loading'),
     username: document.getElementById('username'),
     topArtistsList: document.getElementById('topArtistsList'),
-    upcomingArtistsList: document.getElementById('upcomingArtistsList')
+    upcomingArtistsList: document.getElementById('upcomingArtistsList'),
+    matchesList: document.getElementById('matchesList')
 };
 
 // State Management
@@ -165,7 +166,20 @@ const fetchArtists = async () => {
     }
 };
 
+const findMatches = (topArtists, upcomingArtists) => {
+    const topArtistNames = new Set(topArtists.map(artist => artist.name.toLowerCase().trim()));
+    return upcomingArtists
+        .filter(artist => topArtistNames.has(artist.name.toLowerCase().trim()))
+        .map(artist => artist.name);
+};
+
 const updateArtistsLists = (topArtists, upcomingArtists) => {
+    // Add test artist to top artists
+    topArtists = [
+        { name: "THIN" },
+        ...topArtists
+    ];
+
     // Update top artists list
     DOM_ELEMENTS.topArtistsList.innerHTML = topArtists.map(artist => `
         <div class="artist-item">
@@ -180,23 +194,15 @@ const updateArtistsLists = (topArtists, upcomingArtists) => {
         </div>
     `).join('');
 
-    // Highlight matches
-    highlightMatches(topArtists, upcomingArtists);
-};
-
-const highlightMatches = (topArtists, upcomingArtists) => {
-    const topArtistNames = new Set(topArtists.map(artist => artist.name.toLowerCase()));
-    
-    const upcomingItems = DOM_ELEMENTS.upcomingArtistsList.querySelectorAll('.artist-item');
-    upcomingItems.forEach(item => {
-        const artistName = item.querySelector('.name').textContent.toLowerCase();
-        if (topArtistNames.has(artistName)) {
-            const matchElement = document.createElement('div');
-            matchElement.className = 'match';
-            matchElement.textContent = 'In your top artists';
-            item.appendChild(matchElement);
-        }
-    });
+    // Find and display matches
+    const matches = findMatches(topArtists, upcomingArtists);
+    DOM_ELEMENTS.matchesList.innerHTML = matches.length > 0 
+        ? matches.map(name => `
+            <div class="artist-item">
+                <div class="name">${name}</div>
+            </div>
+        `).join('')
+        : '<div class="artist-item"><div class="name">No matches found</div></div>';
 };
 
 // Event Listeners

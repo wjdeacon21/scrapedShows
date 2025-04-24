@@ -9,8 +9,6 @@ const DOM_ELEMENTS = {
     errorMessage: document.getElementById('errorMessage'),
     loading: document.getElementById('loading'),
     username: document.getElementById('username'),
-    topArtistsList: document.getElementById('topArtistsList'),
-    upcomingArtistsList: document.getElementById('upcomingArtistsList'),
     matchesList: document.getElementById('matchesList')
 };
 
@@ -176,40 +174,89 @@ const fetchArtists = async () => {
     }
 };
 
-const findMatches = (topArtists, upcomingArtists, likedArtists) => {
-    const topArtistNames = new Set(topArtists.map(artist => artist.name.toLowerCase().trim()));
-    const likedArtistNames = new Set(likedArtists.map(artist => artist.name.toLowerCase().trim()));
-    const allArtistNames = new Set([...topArtistNames, ...likedArtistNames]);
-    
-    return upcomingArtists
-        .filter(artist => allArtistNames.has(artist.name.toLowerCase().trim()))
-        .map(artist => artist.name);
+const findMatches = (topArtists, shows, likedArtists) => {
+    // Create a Set of all user's artist names (case-insensitive)
+    const userArtists = new Set([
+        ...topArtists.map(artist => artist.name.toLowerCase().trim()),
+        ...likedArtists.map(artist => artist.name.toLowerCase().trim())
+    ]);
+
+    console.log('User Artists Set:', Array.from(userArtists));
+    console.log('Shows Data:', shows);
+
+    // Find shows where any artist matches user's artists
+    const matchingShows = shows.filter(show => {
+        // Skip if show is undefined or doesn't have name object with artists array
+        if (!show || !show.name || !Array.isArray(show.name.artists)) {
+            console.warn('Invalid show data:', show);
+            return false;
+        }
+        
+        console.log('Processing show:', show);
+        console.log('Show artists:', show.name.artists);
+
+        const hasMatch = show.name.artists.some(artist => {
+            // Skip if artist is undefined or not a string
+            if (!artist || typeof artist !== 'string') {
+                console.warn('Invalid artist data:', artist);
+                return false;
+            }
+            const normalizedArtist = artist.toLowerCase().trim();
+            const isMatch = userArtists.has(normalizedArtist);
+            if (isMatch) {
+                console.log(`Match found: ${artist} in show at ${show.name.venue}`);
+            }
+            return isMatch;
+        });
+
+        return hasMatch;
+    });
+
+    // Sort shows by date
+    matchingShows.sort((a, b) => {
+        // Handle cases where date might be invalid
+        const dateA = new Date(a.name.date);
+        const dateB = new Date(b.name.date);
+        return dateA - dateB;
+    });
+
+    console.log('Final matching shows:', matchingShows);
+    return matchingShows;
 };
 
-const updateArtistsLists = (topArtists, upcomingArtists, likedArtists) => {
-    // Update top artists list
-    DOM_ELEMENTS.topArtistsList.innerHTML = topArtists.map(artist => `
-        <div class="artist-item">
-            <div class="name">${artist.name}</div>
-        </div>
-    `).join('');
+const updateArtistsLists = (topArtists, shows, likedArtists) => {
+    // Log all data for debugging
+    console.log('Top Artists:', topArtists.map(artist => ({
+        name: artist.name,
+        image: artist.image,
+        genres: artist.genres,
+        url: artist.url
+    })));
 
-    // Update upcoming artists list
-    DOM_ELEMENTS.upcomingArtistsList.innerHTML = upcomingArtists.map(artist => `
-        <div class="artist-item">
-            <div class="name">${artist.name}</div>
-        </div>
-    `).join('');
+    console.log('Liked Artists:', likedArtists.map(artist => ({
+        name: artist.name,
+        image: artist.image,
+        genres: artist.genres,
+        url: artist.url
+    })));
 
-    // Find and display matches
-    const matches = findMatches(topArtists, upcomingArtists, likedArtists);
-    DOM_ELEMENTS.matchesList.innerHTML = matches.length > 0 
-        ? matches.map(name => `
+    console.log('All Shows:', shows);
+
+    // Find and display matching shows
+    const matchingShows = findMatches(topArtists, shows, likedArtists);
+    console.log('Matching Shows:', matchingShows);
+    
+    DOM_ELEMENTS.matchesList.innerHTML = matchingShows.length > 0 
+        ? matchingShows.map(show => `
             <div class="artist-item">
-                <div class="name">${name}</div>
+                <div class="name">${show.name.artists.join(', ')}</div>
+                <div class="details">
+                    <div class="date">${show.name.date} at ${show.name.time}</div>
+                    <div class="venue">${show.name.venue}</div>
+                </div>
             </div>
         `).join('')
-        : '<div class="artist-item"><div class="name">No matches found</div></div>';
+        : '<div class="artist-item"><div class="name">No upcoming shows found</div></div>';
 };
 
 // Event Listeners

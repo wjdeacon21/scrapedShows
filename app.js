@@ -182,29 +182,45 @@ const findMatches = (topArtists, shows, likedArtists) => {
     ]);
 
     console.log('User Artists Set:', Array.from(userArtists));
-    console.log('Shows Data:', shows);
+    console.log('Raw Shows Data:', JSON.stringify(shows, null, 2));
 
     // Find shows where any artist matches user's artists
     const matchingShows = shows.filter(show => {
-        // Skip if show is undefined or doesn't have name object with artists array
-        if (!show || !show.name || !Array.isArray(show.name.artists)) {
-            console.warn('Invalid show data:', show);
+        // Debug the show structure
+        console.log('Processing show:', JSON.stringify(show, null, 2));
+        
+        // Check if show has the expected structure
+        if (!show || typeof show !== 'object') {
+            console.warn('Show is not an object:', show);
             return false;
         }
-        
-        console.log('Processing show:', show);
-        console.log('Show artists:', show.name.artists);
 
-        const hasMatch = show.name.artists.some(artist => {
-            // Skip if artist is undefined or not a string
+        if (!show.name || typeof show.name !== 'object') {
+            console.warn('Show.name is not an object:', show);
+            return false;
+        }
+
+        if (!show.name.name || typeof show.name.name !== 'object') {
+            console.warn('Show.name.name is not an object:', show.name);
+            return false;
+        }
+
+        if (!Array.isArray(show.name.name.artists)) {
+            console.warn('Show.name.name.artists is not an array:', show.name.name.artists);
+            return false;
+        }
+
+        console.log('Show artists array:', show.name.name.artists);
+
+        const hasMatch = show.name.name.artists.some(artist => {
             if (!artist || typeof artist !== 'string') {
-                console.warn('Invalid artist data:', artist);
+                console.warn('Invalid artist in array:', artist);
                 return false;
             }
             const normalizedArtist = artist.toLowerCase().trim();
             const isMatch = userArtists.has(normalizedArtist);
             if (isMatch) {
-                console.log(`Match found: ${artist} in show at ${show.name.venue}`);
+                console.log(`Match found: ${artist} in show at ${show.name.name.venue}`);
             }
             return isMatch;
         });
@@ -214,13 +230,17 @@ const findMatches = (topArtists, shows, likedArtists) => {
 
     // Sort shows by date
     matchingShows.sort((a, b) => {
-        // Handle cases where date might be invalid
-        const dateA = new Date(a.name.date);
-        const dateB = new Date(b.name.date);
-        return dateA - dateB;
+        try {
+            const dateA = new Date(a.name.name.date);
+            const dateB = new Date(b.name.name.date);
+            return dateA - dateB;
+        } catch (error) {
+            console.warn('Error sorting dates:', error);
+            return 0;
+        }
     });
 
-    console.log('Final matching shows:', matchingShows);
+    console.log('Final matching shows:', JSON.stringify(matchingShows, null, 2));
     return matchingShows;
 };
 
@@ -249,10 +269,10 @@ const updateArtistsLists = (topArtists, shows, likedArtists) => {
     DOM_ELEMENTS.matchesList.innerHTML = matchingShows.length > 0 
         ? matchingShows.map(show => `
             <div class="artist-item">
-                <div class="name">${show.name.artists.join(', ')}</div>
+                <div class="name">${show.name.name.artists.join(', ')}</div>
                 <div class="details">
-                    <div class="date">${show.name.date} at ${show.name.time}</div>
-                    <div class="venue">${show.name.venue}</div>
+                    <div class="date">${show.name.name.date} at ${show.name.name.time}</div>
+                    <div class="venue">${show.name.name.venue}</div>
                 </div>
             </div>
         `).join('')

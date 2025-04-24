@@ -9,42 +9,45 @@ async function getArtistNames() {
   });
 
   const page = await browser.newPage();
+  const shows = [];
 
-  await page.goto('https://www.ohmyrockness.com/shows/just-announced', {
-    waitUntil: 'networkidle2',
-    timeout: 0
-  });
-
-  const shows = await page.$$eval('.row.vevent', rows =>
-    rows.map(row => {
-      
-      //Get all artist names
-      const artistEl = Array.from(row.querySelectorAll('.bands.summary a')).filter(a =>
-        a.classList.contains('non-profiled') || a.className.trim() === ''
-      );
-      const artistNames = artistEl.map(a => a.textContent.trim());
-
-      //Get show date
-      const datetimeAttr = row.querySelector('.value-title')?.getAttribute('title') || '';
-
-      let date = 'Unknown';
-      let time = 'Unknown';
-  
-      if (datetimeAttr) {
-        const dt = new Date(datetimeAttr);
-        date = dt.toLocaleDateString(); // e.g. "5/17/2025"
-        time = dt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }); // "7:00 PM"
-      }
-
-      //Get venue
-      const venue = row.querySelector('.fn.org').textContent.trim();
-
-      return { artists: artistNames, date, time, venue };
-    })
+  for (let pageNum = 1; pageNum <= 5; pageNum++) {
+    const url = `https://www.ohmyrockness.com/shows/just-announced?page=${pageNum}`;
+    console.log(`Scraping page ${pageNum}...`);
     
-  );
+    await page.goto(url, {
+      waitUntil: 'networkidle2',
+      timeout: 0
+    });
 
-  console.log('🎤 Shows found:', shows);
+    const pageShows = await page.$$eval('.row.vevent', rows =>
+      rows.map(row => {
+        const artistEl = Array.from(row.querySelectorAll('.bands.summary a')).filter(a =>
+          a.classList.contains('non-profiled') || a.className.trim() === ''
+        );
+        const artistNames = artistEl.map(a => a.textContent.trim());
+
+        const datetimeAttr = row.querySelector('.value-title')?.getAttribute('title') || '';
+
+        let date = 'Unknown';
+        let time = 'Unknown';
+    
+        if (datetimeAttr) {
+          const dt = new Date(datetimeAttr);
+          date = dt.toLocaleDateString();
+          time = dt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+
+        const venue = row.querySelector('.fn.org').textContent.trim();
+
+        return { name: { artists: artistNames, date, time, venue } };
+      })
+    );
+
+    shows.push(...pageShows);
+  }
+
+  console.log('🎤 Total shows found:', shows.length);
 
   await browser.close();
   return shows;

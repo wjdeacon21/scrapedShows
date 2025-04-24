@@ -130,23 +130,29 @@ const fetchArtists = async () => {
         UIState.showLoading();
         UIState.hideError();
 
-        const [topArtistsResponse, upcomingArtistsResponse] = await Promise.all([
+        const [topArtistsResponse, upcomingArtistsResponse, likedArtistsResponse] = await Promise.all([
             fetch(`/api/top-artists?userId=${state.userId}`, {
                 headers: {
                     'Authorization': `Bearer ${state.accessToken}`
                 }
             }),
-            fetch('/api/upcoming-artists')
+            fetch('/api/upcoming-artists'),
+            fetch(`/api/liked-artists?userId=${state.userId}`, {
+                headers: {
+                    'Authorization': `Bearer ${state.accessToken}`
+                }
+            })
         ]);
 
-        if (topArtistsResponse.status === 401) {
+        if (topArtistsResponse.status === 401 || likedArtistsResponse.status === 401) {
             await Auth.refreshToken();
             return fetchArtists();
         }
 
-        const [topArtistsData, upcomingArtistsData] = await Promise.all([
+        const [topArtistsData, upcomingArtistsData, likedArtistsData] = await Promise.all([
             topArtistsResponse.json(),
-            upcomingArtistsResponse.json()
+            upcomingArtistsResponse.json(),
+            likedArtistsResponse.json()
         ]);
 
         if (topArtistsData.error) {
@@ -157,7 +163,11 @@ const fetchArtists = async () => {
             throw new Error(upcomingArtistsData.error);
         }
 
-        updateArtistsLists(topArtistsData.topArtists, upcomingArtistsData.upcomingArtists);
+        if (likedArtistsData.error) {
+            throw new Error(likedArtistsData.error);
+        }
+
+        updateArtistsLists(topArtistsData.topArtists, upcomingArtistsData.upcomingArtists, likedArtistsData.likedArtists);
     } catch (error) {
         console.error('Error fetching artists:', error);
         UIState.showError('Failed to load artists');
@@ -166,20 +176,17 @@ const fetchArtists = async () => {
     }
 };
 
-const findMatches = (topArtists, upcomingArtists) => {
+const findMatches = (topArtists, upcomingArtists, likedArtists) => {
     const topArtistNames = new Set(topArtists.map(artist => artist.name.toLowerCase().trim()));
+    const likedArtistNames = new Set(likedArtists.map(artist => artist.name.toLowerCase().trim()));
+    const allArtistNames = new Set([...topArtistNames, ...likedArtistNames]);
+    
     return upcomingArtists
-        .filter(artist => topArtistNames.has(artist.name.toLowerCase().trim()))
+        .filter(artist => allArtistNames.has(artist.name.toLowerCase().trim()))
         .map(artist => artist.name);
 };
 
-const updateArtistsLists = (topArtists, upcomingArtists) => {
-    // Add test artist to top artists
-    topArtists = [
-        { name: "THIN" },
-        ...topArtists
-    ];
-
+const updateArtistsLists = (topArtists, upcomingArtists, likedArtists) => {
     // Update top artists list
     DOM_ELEMENTS.topArtistsList.innerHTML = topArtists.map(artist => `
         <div class="artist-item">
@@ -195,7 +202,7 @@ const updateArtistsLists = (topArtists, upcomingArtists) => {
     `).join('');
 
     // Find and display matches
-    const matches = findMatches(topArtists, upcomingArtists);
+    const matches = findMatches(topArtists, upcomingArtists, likedArtists);
     DOM_ELEMENTS.matchesList.innerHTML = matches.length > 0 
         ? matches.map(name => `
             <div class="artist-item">

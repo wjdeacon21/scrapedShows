@@ -39,7 +39,7 @@ function generateRandomString(length) {
 
 app.get('/login', (req, res) => {
     const state = generateRandomString(16);
-    const scope = 'user-read-private user-read-email user-top-read user-read-currently-playing';
+    const scope = 'user-read-private user-read-email user-top-read user-read-currently-playing user-library-read';
 
     res.redirect('https://accounts.spotify.com/authorize?' +
         querystring.stringify({
@@ -268,6 +268,103 @@ app.get('/api/top-artists', async (req, res) => {
     }
 });
 
+async function getLikedArtists(userId) {
+    if (!userId || !userTokens.has(userId)) {
+        console.error('User not authenticated:', { userId, hasToken: userTokens.has(userId) });
+        throw new Error('User not authenticated');
+    }
+
+    const userToken = userTokens.get(userId);
+    console.log('User token status:', { 
+        userId, 
+        hasAccessToken: !!userToken.access_token,
+        hasRefreshToken: !!userToken.refresh_token,
+        expiresAt: new Date(userToken.expires_at).toISOString(),
+        currentTime: new Date().toISOString()
+    });
+
+    if (Date.now() >= userToken.expires_at) {
+        console.log('Token expired, refreshing...');
+        try {
+            const response = await axios.post('https://accounts.spotify.com/api/token', 
+                querystring.stringify({
+                    grant_type: 'refresh_token',
+                    refresh_token: userToken.refresh_token
+                }),
+                {
+                    headers: {
+                        'Authorization': 'Basic ' + (Buffer.from(SPOTIFY_CLIENT_ID + ':' + SPOTIFY_CLIENT_SECRET).toString('base64')),
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                }
+            );
+
+            userToken.access_token = response.data.access_token;
+            userToken.expires_at = Date.now() + (response.data.expires_in * 1000);
+            console.log('Token refreshed successfully');
+        } catch (error) {
+            console.error('Error refreshing token:', error.response?.data || error.message);
+            throw new Error('Failed to refresh token');
+        }
+    }
+
+    try {
+        let allArtists = new Set();
+        let nextURL = 'https://api.spotify.com/v1/me/tracks?limit=50';
+
+        while (nextURL) {
+            const response = await axios.get(nextURL, {
+                headers: {
+                    'Authorization': `Bearer ${userToken.access_token}`
+                }
+            });
+
+            response.data.items.forEach(item => {
+                item.track.artists.forEach(artist => {
+                    allArtists.add(JSON.stringify({
+                        name: artist.name,
+                        image: artist.images?.[0]?.url,
+                        genres: artist.genres || [],
+                        url: artist.external_urls.spotify
+                    }));
+                });
+            });
+
+            nextURL = response.data.next;
+        }
+
+        return Array.from(allArtists).map(JSON.parse);
+    } catch (error) {
+        console.error('Error fetching liked artists from Spotify:', {
+            status: error.response?.status,
+            data: error.response?.data,
+            message: error.message
+        });
+        throw new Error('Failed to fetch liked artists from Spotify');
+    }
+}
+
+app.get('/api/liked-artists', async (req, res) => {
+    try {
+        const { userId } = req.query;
+        if (!userId) {
+            return res.status(400).json({ error: 'User ID is required' });
+        }
+        
+        const likedArtists = await getLikedArtists(userId);
+        res.json({ likedArtists });
+    } catch (error) {
+        console.error('Error in liked-artists endpoint:', error.message);
+        if (error.message === 'User not authenticated') {
+            res.status(401).json({ error: 'User not authenticated' });
+        } else if (error.message === 'Failed to refresh token') {
+            res.status(401).json({ error: 'Authentication expired. Please log in again.' });
+        } else {
+            res.status(500).json({ error: 'Failed to get liked artists' });
+        }
+    }
+});
+
 app.get('/api/upcoming-artists', async (req, res) => {
     try {
         const artists = await getArtistNames();
@@ -287,7 +384,5 @@ if (require.main === module) {
         console.log(`Server running at http://localhost:${port}`);
     });
 }
-
-
 
 module.exports = { getTopArtists };

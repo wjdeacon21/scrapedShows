@@ -23,7 +23,7 @@ app.use(express.static(__dirname));
 // Spotify API credentials
 const SPOTIFY_CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const SPOTIFY_CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
-const REDIRECT_URI = `http://localhost:${port}/callback`;
+const REDIRECT_URI = process.env.REDIRECT_URI || `http://localhost:${port}/callback`;
 
 // Store user tokens
 const userTokens = new Map();

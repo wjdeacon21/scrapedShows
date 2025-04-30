@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 async function getArtistNames() {
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--ignore-certificate-errors','--no-sandbox', '--disable-setuid-sandbox']  // 👈 ignores SSL cert issues
+    args: ['--ignore-certificate-errors']  // 👈 ignores SSL cert issues
   });
 
   const page = await browser.newPage();

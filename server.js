@@ -19,6 +19,9 @@ app.use(express.json());
 
 // Serve static files from the current directory
 app.use(express.static(__dirname));
+app.get('*',(req,res)=>{
+    res.sendFile(path.join(__dirname,'index.html'));
+});
 
 // Spotify API credentials
 const SPOTIFY_CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;

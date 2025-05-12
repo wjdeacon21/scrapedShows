@@ -1,6 +1,29 @@
 const puppeteer = require('puppeteer')
 const axios = require('axios');
 const cheerio = require('cheerio');
+const fs = require('fs');
+const path = require('path');
+
+// Helper function to save data to JSON file
+async function saveToJson(data) {
+  const dataDir = path.join(__dirname, 'data');
+  
+  // Create data directory if it doesn't exist
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir);
+  }
+
+  // Create filename with timestamp
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+  const filename = path.join(dataDir, `shows_${timestamp}.json`);
+
+  try {
+    await fs.promises.writeFile(filename, JSON.stringify(data, null, 2));
+    console.log(`✅ Data saved to ${filename}`);
+  } catch (error) {
+    console.error('❌ Error saving data:', error.message);
+  }
+}
 
 async function getArtistNames() {
   const browser = await puppeteer.launch({
@@ -50,6 +73,10 @@ async function getArtistNames() {
   console.log('🎤 Total shows found:', shows.length);
 
   await browser.close();
+  
+  // Save the data to a JSON file
+  await saveToJson(shows);
+  
   return shows;
 }
 

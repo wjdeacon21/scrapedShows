@@ -2,6 +2,150 @@
   {
     "name": {
       "artists": [
+        "Weiland"
+      ],
+      "date": "7/26/2025",
+      "time": "07:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Annie Dukes",
+        "Cat Crash",
+        "Bad Static",
+        "Iridescent Pools"
+      ],
+      "date": "10/9/2025",
+      "time": "07:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Seamstress",
+        "Samsara",
+        "Moderate Rock",
+        "Something's Cursed"
+      ],
+      "date": "8/2/2025",
+      "time": "03:30 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Void Vision",
+        "Ronnie Stone",
+        "Static Ghost",
+        "Ivy Oh (DJ)"
+      ],
+      "date": "8/7/2025",
+      "time": "07:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Tom Henry",
+        "Bullseye",
+        "Alga"
+      ],
+      "date": "7/26/2025",
+      "time": "06:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Channel 3",
+        "Mala Vista",
+        "Chemical X",
+        "ChumHuffer",
+        "Beast from the East"
+      ],
+      "date": "6/22/2025",
+      "time": "02:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Gene Loves Jezebel",
+        "Darling Black",
+        "Charity Kill"
+      ],
+      "date": "6/17/2025",
+      "time": "07:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Sage Thomas",
+        "Catapult City",
+        "COBA",
+        "Scaffolding (solo)"
+      ],
+      "date": "5/20/2025",
+      "time": "07:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Steve Conte",
+        "The Rattlers",
+        "Jiro",
+        "deerfrance",
+        "Labretta Suede",
+        "The Rymans",
+        "Eugene Hutz",
+        "Andy Shernoff",
+        "Peter Zaremba",
+        "Miriam Linna",
+        "and more!"
+      ],
+      "date": "5/19/2025",
+      "time": "06:30 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Wyldlife",
+        "Ravagers",
+        "How Tragic"
+      ],
+      "date": "5/17/2025",
+      "time": "07:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "My Transparent Eye",
+        "November Girl",
+        "DJ Brightviolet"
+      ],
+      "date": "5/15/2025",
+      "time": "07:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
         "Chuck D (signing)"
       ],
       "date": "5/16/2025",
@@ -2102,234 +2246,6 @@
       "date": "7/11/2025",
       "time": "05:00 PM",
       "venue": "Maker Park Radio"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Exit 99",
-        "Turbo Goth",
-        "Mairead Band",
-        "Foxy Music NYC"
-      ],
-      "date": "5/20/2025",
-      "time": "07:00 PM",
-      "venue": "The Cobra Club"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "pond 1000",
-        "Jinzo",
-        "Kolb",
-        "Cowboygirl"
-      ],
-      "date": "5/23/2025",
-      "time": "08:00 PM",
-      "venue": "Rubulad"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Tower",
-        "The Pale Hand",
-        "Holy Wisdom LLC"
-      ],
-      "date": "5/16/2025",
-      "time": "07:30 PM",
-      "venue": "Rubulad"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Swandive",
-        "Globe",
-        "Harper",
-        "Zap Beetle"
-      ],
-      "date": "5/12/2025",
-      "time": "07:00 PM",
-      "venue": "Rubulad"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Wool Drive",
-        "The Walkups",
-        "Neptune and Sailor",
-        "The Modbeats"
-      ],
-      "date": "7/19/2025",
-      "time": "07:00 PM",
-      "venue": "Hart Bar"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Crush Fund",
-        "Cocojoey",
-        "Trust Fund Ozu",
-        "Mankid"
-      ],
-      "date": "6/27/2025",
-      "time": "07:00 PM",
-      "venue": "Hart Bar"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Femcel",
-        "Leopardo",
-        "Psincerity"
-      ],
-      "date": "6/26/2025",
-      "time": "07:30 PM",
-      "venue": "Hart Bar"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Crazy and The Brains",
-        "Rebelmatic",
-        "Dumpster Pink",
-        "Toska"
-      ],
-      "date": "5/17/2025",
-      "time": "07:00 PM",
-      "venue": "Hart Bar"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Shrine Sound",
-        "Kiaura Rose",
-        "Monarch",
-        "Purser"
-      ],
-      "date": "5/14/2025",
-      "time": "07:30 PM",
-      "venue": "Hart Bar"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Balaclava",
-        "Abby Jeanne and the Shadowband"
-      ],
-      "date": "6/1/2025",
-      "time": "02:00 PM",
-      "venue": "Maria Hernandez Park"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Gibby Haynes (performing Butthole Surfers)",
-        "Paul Green Rock Academy"
-      ],
-      "date": "5/25/2025",
-      "time": "07:00 PM",
-      "venue": "Gold Sounds"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Walt McClements",
-        "Mari Rubio",
-        "David Grubbs"
-      ],
-      "date": "5/25/2025",
-      "time": "05:00 PM",
-      "venue": "P.I.T."
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Concealer",
-        "The Cradle",
-        "Kid Millions",
-        "Max Jaffe"
-      ],
-      "date": "5/23/2025",
-      "time": "06:00 PM",
-      "venue": "P.I.T."
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Sub Rosa",
-        "Story In Progress",
-        "Armedalite Rifles",
-        "Electronic Waste"
-      ],
-      "date": "5/17/2025",
-      "time": "06:00 PM",
-      "venue": "P.I.T."
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Lost Dog",
-        "OBOY!",
-        "Drop Dead Gorgeous",
-        "Barbarian Law",
-        "Energy Weapon"
-      ],
-      "date": "5/31/2025",
-      "time": "07:00 PM",
-      "venue": "Unruly Collective"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Brook Pridemore",
-        "Rent Strike",
-        "Helga Pataki",
-        "Dirty Harry"
-      ],
-      "date": "5/29/2025",
-      "time": "07:00 PM",
-      "venue": "Unruly Collective"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "SB",
-        "EVG",
-        "Jo Mercado",
-        "Sasha Sasha"
-      ],
-      "date": "5/20/2025",
-      "time": "07:00 PM",
-      "venue": "Unruly Collective"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Extreme Sports",
-        "Chaser",
-        "Hard Nips",
-        "Lowballer"
-      ],
-      "date": "6/7/2025",
-      "time": "08:00 PM",
-      "venue": "Wonderville"
     }
   }
 ]

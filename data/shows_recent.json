@@ -2,245 +2,20 @@
   {
     "name": {
       "artists": [
-        "Weiland"
+        "Jerrod Carmichael"
       ],
-      "date": "7/26/2025",
-      "time": "07:00 PM",
-      "venue": "The Bowery Electric"
+      "date": "5/25/2025",
+      "time": "09:30 PM",
+      "venue": "Union Hall"
     }
   },
   {
     "name": {
       "artists": [
-        "Annie Dukes",
-        "Cat Crash",
-        "Bad Static",
-        "Iridescent Pools"
+        "Joe Pera",
+        "Dan Licata"
       ],
-      "date": "10/9/2025",
-      "time": "07:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Seamstress",
-        "Samsara",
-        "Moderate Rock",
-        "Something's Cursed"
-      ],
-      "date": "8/2/2025",
-      "time": "03:30 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Void Vision",
-        "Ronnie Stone",
-        "Static Ghost",
-        "Ivy Oh (DJ)"
-      ],
-      "date": "8/7/2025",
-      "time": "07:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Tom Henry",
-        "Bullseye",
-        "Alga"
-      ],
-      "date": "7/26/2025",
-      "time": "06:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Channel 3",
-        "Mala Vista",
-        "Chemical X",
-        "ChumHuffer",
-        "Beast from the East"
-      ],
-      "date": "6/22/2025",
-      "time": "02:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Gene Loves Jezebel",
-        "Darling Black",
-        "Charity Kill"
-      ],
-      "date": "6/17/2025",
-      "time": "07:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Sage Thomas",
-        "Catapult City",
-        "COBA",
-        "Scaffolding (solo)"
-      ],
-      "date": "5/20/2025",
-      "time": "07:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Steve Conte",
-        "The Rattlers",
-        "Jiro",
-        "deerfrance",
-        "Labretta Suede",
-        "The Rymans",
-        "Eugene Hutz",
-        "Andy Shernoff",
-        "Peter Zaremba",
-        "Miriam Linna",
-        "and more!"
-      ],
-      "date": "5/19/2025",
-      "time": "06:30 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Wyldlife",
-        "Ravagers",
-        "How Tragic"
-      ],
-      "date": "5/17/2025",
-      "time": "07:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "My Transparent Eye",
-        "November Girl",
-        "DJ Brightviolet"
-      ],
-      "date": "5/15/2025",
-      "time": "07:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Chuck D (signing)"
-      ],
-      "date": "5/16/2025",
-      "time": "03:00 PM",
-      "venue": "Rough Trade NYC"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Arlie",
-        "Nordista Freeze"
-      ],
-      "date": "10/14/2025",
-      "time": "07:00 PM",
-      "venue": "Racket"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Lone Bellow"
-      ],
-      "date": "11/15/2025",
-      "time": "07:00 PM",
-      "venue": "Music Hall of Williamsburg"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Waylon Wyatt"
-      ],
-      "date": "9/17/2025",
-      "time": "07:00 PM",
-      "venue": "Webster Hall"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Futurebirds"
-      ],
-      "date": "8/23/2025",
-      "time": "06:00 PM",
-      "venue": "The Rockaway Hotel"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Weakened Friends"
-      ],
-      "date": "11/15/2025",
-      "time": "07:00 PM",
-      "venue": "The Sultan Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Iggy Pop",
-        "Jack White",
-        "Sex Pistols (Steve Jones, Paul Cook, Glen Matlock, Frank Carter)",
-        "Angel Du$t",
-        "Cro-Mags",
-        "The Damned",
-        "Destroy Boys",
-        "Gorilla Biscuits",
-        "Johnny Marr",
-        "Lambrini Girls",
-        "The Linda Lindas",
-        "Lip Critic",
-        "Lunachicks",
-        "Marky Ramone",
-        "Melvins",
-        "Murphy's Law",
-        "Pinkshift",
-        "Scowl",
-        "Soul Glo",
-        "Teen Mortgage",
-        "YHWH Nailgun"
-      ],
-      "date": "9/27/2025",
-      "time": "03:00 PM",
-      "venue": "Under the K Bridge Park"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Mal Blum",
-        "Charlie Mtn."
-      ],
-      "date": "7/27/2025",
+      "date": "7/3/2025",
       "time": "08:00 PM",
       "venue": "The Bell House"
     }
@@ -248,136 +23,343 @@
   {
     "name": {
       "artists": [
-        "Olivia Dean"
+        "The Armed",
+        "Prostitute"
       ],
-      "date": "7/17/2025",
-      "time": "08:00 PM",
-      "venue": "Brooklyn Paramount"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Khanate",
-        "Qiujiang Levi Lu"
-      ],
-      "date": "6/4/2025",
-      "time": "07:00 PM",
+      "date": "8/15/2025",
+      "time": "06:30 PM",
       "venue": "(Le) Poisson Rouge"
     }
   },
   {
     "name": {
       "artists": [
-        "Don Diablo"
+        "NOTION"
       ],
-      "date": "7/19/2025",
-      "time": "06:00 PM",
-      "venue": "The Rooftop at Pier 17"
+      "date": "12/6/2025",
+      "time": "10:00 PM",
+      "venue": "Avant Gardner"
     }
   },
   {
     "name": {
       "artists": [
-        "Kybba"
+        "Nite Music",
+        "Frankie Sunswept",
+        "The Road To Ruin"
       ],
-      "date": "9/19/2025",
-      "time": "08:00 PM",
-      "venue": "The Rooftop at Pier 17"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "X Ambassadors"
-      ],
-      "date": "9/23/2025",
+      "date": "6/16/2025",
       "time": "07:00 PM",
-      "venue": "Brooklyn Steel"
+      "venue": "Sleepwalk"
     }
   },
   {
     "name": {
       "artists": [
-        "Louis CK"
+        "Takuya Nakamura"
       ],
       "date": "8/16/2025",
-      "time": "05:30 PM",
-      "venue": "Forest Hills Stadium"
+      "time": "07:00 PM",
+      "venue": "Public Records"
     }
   },
   {
     "name": {
       "artists": [
-        "Rilo Kiley",
+        "Mary Shelley",
+        "P.H.0",
+        "Bad Head"
+      ],
+      "date": "6/6/2025",
+      "time": "07:00 PM",
+      "venue": "Union Pool"
+    }
+  },
+  {
+    "name": {
+      "artists": [
         "Natalie Bergman"
       ],
-      "date": "8/30/2025",
+      "date": "7/18/2025",
       "time": "07:00 PM",
-      "venue": "Stone Pony"
+      "venue": "Public Records"
     }
   },
   {
     "name": {
       "artists": [
-        "Rilo Kiley",
-        "Natalie Bergman"
+        "David Franklin Courtwright"
       ],
-      "date": "8/31/2025",
+      "date": "8/7/2025",
       "time": "07:00 PM",
-      "venue": "The Capitol Theatre"
+      "venue": "Union Pool"
     }
   },
   {
     "name": {
       "artists": [
-        "Ricky Gervais"
+        "Fazerdaze"
       ],
-      "date": "5/27/2025",
+      "date": "9/21/2025",
+      "time": "07:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Kareem Rahma",
+        "Tiny Gun",
+        "Jasno",
+        "Diary",
+        "Spike Einbinder",
+        "DJ Lio Kanine",
+        "Hello Lightfoot"
+      ],
+      "date": "5/22/2025",
+      "time": "07:00 PM",
+      "venue": "Sleepwalk"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Dream Theater"
+      ],
+      "date": "10/25/2025",
+      "time": "08:00 PM",
+      "venue": "Nassau Veterans Memorial Coliseum"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Passion Pit (Michael Angelakos)"
+      ],
+      "date": "6/5/2025",
+      "time": "07:00 PM",
+      "venue": "Deluxx Fluxx"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Passion Pit (Michael Angelakos)"
+      ],
+      "date": "6/4/2025",
+      "time": "07:00 PM",
+      "venue": "Deluxx Fluxx"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Nihil Admirari",
+        "Electron Gun",
+        "Part Time Trauma",
+        "Fawn Ridge"
+      ],
+      "date": "6/13/2025",
+      "time": "06:00 PM",
+      "venue": "The Gutter"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "The Giraffes",
+        "Genre Is Death"
+      ],
+      "date": "6/12/2025",
+      "time": "06:30 PM",
+      "venue": "Rocks Off Concert Cruises"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "KI/KI"
+      ],
+      "date": "9/20/2025",
+      "time": "04:00 PM",
+      "venue": "Knockdown Center"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Grahame Lesh (and friends)",
+        "Lucius",
+        "Griffin Goldsmith",
+        "Taylor Goldsmith",
+        "Madison Cunningham",
+        "Preservation Hall Jazz Band",
+        "Jorma Kaukonen",
+        "Steve Earle",
+        "and more!"
+      ],
+      "date": "6/14/2025",
+      "time": "11:00 AM",
+      "venue": "Croton Point Park"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Hugo de la Lune"
+      ],
+      "date": "6/18/2025",
+      "time": "07:00 PM",
+      "venue": "Sleepwalk"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Gunnr"
+      ],
+      "date": "8/28/2025",
+      "time": "09:30 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "The Intelligence",
+        "Alice Sandahl (of La Luz)",
+        "Behaviorist"
+      ],
+      "date": "6/13/2025",
+      "time": "06:00 PM",
+      "venue": "P.I.T."
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Joe Versus",
+        "Car Becomes Airplane",
+        "Your Favorite Person"
+      ],
+      "date": "6/27/2025",
+      "time": "08:30 PM",
+      "venue": "Footlight Underground at The Windjammer"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Katy Pinke",
+        "Skylar Skjelset"
+      ],
+      "date": "6/26/2025",
+      "time": "07:00 PM",
+      "venue": "Littlefield"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Isaiah Barr",
+        "David Frazier Jr.",
+        "William Parker"
+      ],
+      "date": "6/18/2025",
+      "time": "07:00 PM",
+      "venue": "National Sawdust"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "John C. Reilly (is Mr. Romantic)"
+      ],
+      "date": "6/10/2025",
+      "time": "06:30 PM",
+      "venue": "National Sawdust"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Spite FuXXX",
+        "Red Tank!",
+        "Failson",
+        "Changelyngs",
+        "Fucking Machines"
+      ],
+      "date": "6/17/2025",
+      "time": "07:00 PM",
+      "venue": "Bar Freda"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Torture and the Desert Spiders"
+      ],
+      "date": "6/3/2025",
+      "time": "07:00 PM",
+      "venue": "Baker Falls"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Torture and the Desert Spiders"
+      ],
+      "date": "6/10/2025",
+      "time": "07:00 PM",
+      "venue": "Baker Falls"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Torture and the Desert Spiders"
+      ],
+      "date": "6/17/2025",
+      "time": "07:00 PM",
+      "venue": "Baker Falls"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Torture and the Desert Spiders"
+      ],
+      "date": "6/24/2025",
+      "time": "07:00 PM",
+      "venue": "Baker Falls"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Torture and the Desert Spiders"
+      ],
+      "date": "7/1/2025",
+      "time": "07:00 PM",
+      "venue": "Baker Falls"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Adam O'Farrill"
+      ],
+      "date": "7/24/2025",
       "time": "07:30 PM",
-      "venue": "Beacon Theatre"
+      "venue": "The Owl"
     }
   },
   {
     "name": {
       "artists": [
-        "Spacey Jane",
-        "The Belair Lip Bombs"
+        "Natural Child"
       ],
-      "date": "9/12/2025",
-      "time": "07:00 PM",
-      "venue": "Brooklyn Steel"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Alex Asher Slow Motion",
-        "Lavalle"
-      ],
-      "date": "5/28/2025",
-      "time": "07:30 PM",
-      "venue": "Threes Brewing"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Alex Asher Slow Motion"
-      ],
-      "date": "5/15/2025",
-      "time": "09:00 PM",
-      "venue": "Dada Bar"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Lifeguard",
-        "PARKiNG",
-        "Autobahn"
-      ],
-      "date": "7/11/2025",
+      "date": "10/12/2025",
       "time": "07:00 PM",
       "venue": "Market Hotel"
     }
@@ -385,10 +367,364 @@
   {
     "name": {
       "artists": [
-        "Christeene",
-        "Fine Mess"
+        "Natural Child"
+      ],
+      "date": "10/11/2025",
+      "time": "07:00 PM",
+      "venue": "Market Hotel"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Dave Hill"
+      ],
+      "date": "7/30/2025",
+      "time": "07:00 PM",
+      "venue": "White Eagle Hall"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "harf."
+      ],
+      "date": "12/11/2025",
+      "time": "07:00 PM",
+      "venue": "Music Hall of Williamsburg"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Gunboat",
+        "Russian Baths",
+        "Sam Zalta"
+      ],
+      "date": "6/27/2025",
+      "time": "08:00 PM",
+      "venue": "Main Drag Music"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Wyyrrd",
+        "Abby Jeanne and the Shadowband",
+        "Adam Lytle"
+      ],
+      "date": "6/28/2025",
+      "time": "08:00 PM",
+      "venue": "Main Drag Music"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Runnner"
+      ],
+      "date": "10/11/2025",
+      "time": "08:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Ultra Lights",
+        "Honey Radar"
+      ],
+      "date": "8/16/2025",
+      "time": "04:00 PM",
+      "venue": "Mama Tried"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Danny Arakaki",
+        "Leopardo",
+        "Childless"
+      ],
+      "date": "7/19/2025",
+      "time": "04:00 PM",
+      "venue": "Mama Tried"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Clay Birds",
+        "We're The Currency",
+        "Grimlitter",
+        "Silk",
+        "Cash Only Tony's"
+      ],
+      "date": "7/26/2025",
+      "time": "07:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Warphole",
+        "Floats",
+        "Stare Away",
+        "Highlighter Rabies"
+      ],
+      "date": "7/17/2025",
+      "time": "07:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Downtown Boys",
+        "Hamed Sinno",
+        "Big Girl"
+      ],
+      "date": "6/28/2025",
+      "time": "07:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Wiring",
+        "Fib",
+        "Wince",
+        "Big League Chew"
+      ],
+      "date": "6/25/2025",
+      "time": "08:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Pulsr",
+        "Gash",
+        "Whisper Doll"
+      ],
+      "date": "6/19/2025",
+      "time": "07:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Superbloom",
+        "In Blue",
+        "Aux Blood",
+        "Grass Fed"
+      ],
+      "date": "6/11/2025",
+      "time": "07:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Crate",
+        "Bloodsports",
+        "Discus",
+        "Main Era",
+        "Amiture Music"
+      ],
+      "date": "6/4/2025",
+      "time": "08:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "The Silver Doors",
+        "King Bug",
+        "Jade"
+      ],
+      "date": "6/3/2025",
+      "time": "07:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Christopher Emond",
+        "Alana Markel",
+        "Zachshots",
+        "Ideas For Conversations"
+      ],
+      "date": "6/2/2025",
+      "time": "07:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Two Point Oh",
+        "Pale Shade"
       ],
       "date": "5/30/2025",
+      "time": "07:00 PM",
+      "venue": "Trans-Pecos"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Sloppy Heads",
+        "Kid Millions",
+        "Sarah Bernstein",
+        "James McNew (Yo La Tengo)",
+        "Jennifer O'Connor"
+      ],
+      "date": "6/12/2025",
+      "time": "07:00 PM",
+      "venue": "Mama Tried"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Willis Mathewson",
+        "These Wild Flowers",
+        "Lily Detaeye"
+      ],
+      "date": "7/24/2025",
+      "time": "07:00 PM",
+      "venue": "Mama Tried"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Homescreen",
+        "Somewhat Social Music"
+      ],
+      "date": "7/31/2025",
+      "time": "07:00 PM",
+      "venue": "Mama Tried"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Kai Wachi"
+      ],
+      "date": "8/15/2025",
+      "time": "10:00 PM",
+      "venue": "Avant Gardner"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Kill Alters",
+        "KFC Murder Chicks",
+        "Next 2 Jimmy",
+        "ID Sus"
+      ],
+      "date": "6/11/2025",
+      "time": "07:00 PM",
+      "venue": "The Broadway"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Shadow Monster",
+        "Castle Black",
+        "Phantom Signals",
+        "Ilithios"
+      ],
+      "date": "6/5/2025",
+      "time": "07:00 PM",
+      "venue": "The Broadway"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Consumables",
+        "Pet Mosquito",
+        "Pippy",
+        "Pizza King Girl"
+      ],
+      "date": "6/4/2025",
+      "time": "07:00 PM",
+      "venue": "The Broadway"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Thrower",
+        "Boring",
+        "Jewelry",
+        "Kiddigs"
+      ],
+      "date": "6/1/2025",
+      "time": "07:00 PM",
+      "venue": "The Broadway"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "JFDR"
+      ],
+      "date": "10/11/2025",
+      "time": "08:00 PM",
+      "venue": "Berlin"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Mamas Gun"
+      ],
+      "date": "8/11/2025",
+      "time": "10:00 PM",
+      "venue": "Blue Note"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Mamas Gun"
+      ],
+      "date": "8/11/2025",
+      "time": "08:00 PM",
+      "venue": "Blue Note"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Catcher (DJ)"
+      ],
+      "date": "5/28/2025",
+      "time": "09:00 PM",
+      "venue": "Night Club 101"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Mun Sing",
+        "Kill Alters",
+        "Rain From Heaven"
+      ],
+      "date": "5/24/2025",
       "time": "11:00 PM",
       "venue": "Night Club 101"
     }
@@ -396,270 +732,109 @@
   {
     "name": {
       "artists": [
-        "Castle Rat"
+        "Of The Sun"
       ],
-      "date": "10/5/2025",
-      "time": "07:00 PM",
-      "venue": "Music Hall of Williamsburg"
+      "date": "5/23/2025",
+      "time": "10:00 PM",
+      "venue": "Night Club 101"
     }
   },
   {
     "name": {
       "artists": [
-        "Hot Mulligan",
-        "Oso Oso",
-        "wakelee"
+        "Bickle",
+        "Jumplink",
+        "ZAYALLCAPS"
       ],
-      "date": "6/4/2025",
-      "time": "06:00 PM",
-      "venue": "Elsewhere"
+      "date": "5/22/2025",
+      "time": "10:00 PM",
+      "venue": "Night Club 101"
     }
   },
   {
     "name": {
       "artists": [
-        "Maruja"
+        "Catcher (DJ)"
       ],
-      "date": "9/25/2025",
-      "time": "08:00 PM",
-      "venue": "Elsewhere"
+      "date": "5/21/2025",
+      "time": "09:00 PM",
+      "venue": "Night Club 101"
     }
   },
   {
     "name": {
       "artists": [
-        "Sunshine Convention",
-        "Uniflora",
-        "Boy Factory"
-      ],
-      "date": "6/20/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Plight",
-        "Retail Drugs",
-        "Glaring Orchid",
-        "Rat Palace",
-        "Gluehead"
-      ],
-      "date": "6/13/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Shaggo",
-        "Jack Flowers and the Petal Tones",
-        "Vivian",
-        "Here for You"
-      ],
-      "date": "6/12/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "fallfiftyfeet",
-        "Princess",
-        "Leave This Place",
-        ".Stential."
+        "Fine Mess",
+        "Jenny Alien",
+        "Death Drive"
       ],
       "date": "6/10/2025",
       "time": "07:00 PM",
-      "venue": "Trans-Pecos"
+      "venue": "Night Club 101"
     }
   },
   {
     "name": {
       "artists": [
-        "Dead Tooth"
+        "Allah-Las"
       ],
-      "date": "5/23/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Brokencyde",
-        "Bayymack"
-      ],
-      "date": "5/16/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "AMILES",
-        "Centennial Gardens",
-        "Morivivi",
-        "Dog Breath"
-      ],
-      "date": "5/15/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Marietta",
-        "awakebutstillinbed"
-      ],
-      "date": "10/7/2025",
-      "time": "07:00 PM",
-      "venue": "Warsaw"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Atta Boy"
-      ],
-      "date": "9/11/2025",
+      "date": "6/26/2025",
       "time": "06:30 PM",
-      "venue": "Baby's All Right"
+      "venue": "Night Club 101"
     }
   },
   {
     "name": {
       "artists": [
-        "Aaryan Shah"
+        "World's Worst",
+        "Shallowater"
       ],
-      "date": "8/26/2025",
-      "time": "06:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Bay Faction",
-        "Keep"
-      ],
-      "date": "8/16/2025",
+      "date": "7/17/2025",
       "time": "07:00 PM",
-      "venue": "Baby's All Right"
+      "venue": "Night Club 101"
     }
   },
   {
     "name": {
       "artists": [
-        "Nicole Atkins"
-      ],
-      "date": "8/5/2025",
-      "time": "06:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Argonaut & Wasp"
-      ],
-      "date": "7/11/2025",
-      "time": "07:00 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Luke Titus",
-        "Annabelle Kline",
-        "Vittorio"
-      ],
-      "date": "7/5/2025",
-      "time": "07:00 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Tyler Miller",
-        "Sophie Said",
-        "Scarlet Fiorella"
-      ],
-      "date": "6/30/2025",
-      "time": "06:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "GLU"
-      ],
-      "date": "6/25/2025",
-      "time": "09:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Ammar",
-        "G Salih",
-        "Nadine El Roubi",
-        "Love Bonez",
-        "Oddisee"
-      ],
-      "date": "6/15/2025",
-      "time": "05:00 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Darling",
-        "The Sees"
-      ],
-      "date": "8/23/2025",
-      "time": "07:00 PM",
-      "venue": "The Sultan Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Bikini Trill"
-      ],
-      "date": "6/17/2025",
-      "time": "06:00 PM",
-      "venue": "The Sultan Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Silver Synthetic",
-        "The Josephine Network",
-        "Danny Arakaki"
-      ],
-      "date": "8/14/2025",
-      "time": "07:00 PM",
-      "venue": "Union Pool"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Girl in a Coma"
+        "Eliza Niemi",
+        "Dorothea Paas",
+        "Blums"
       ],
       "date": "7/25/2025",
+      "time": "06:30 PM",
+      "venue": "Night Club 101"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Eliza Edens",
+        "Camille Schmidt"
+      ],
+      "date": "8/28/2025",
+      "time": "07:00 PM",
+      "venue": "Night Club 101"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "English Teacher"
+      ],
+      "date": "9/25/2025",
+      "time": "10:30 PM",
+      "venue": "Night Club 101"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Water Torture",
+        "World Peace",
+        "Malform"
+      ],
+      "date": "10/10/2025",
       "time": "07:00 PM",
       "venue": "TV EYE"
     }
@@ -667,23 +842,160 @@
   {
     "name": {
       "artists": [
-        "Activity",
-        "Doom Flower",
-        "w0rmh0les"
+        "Sistek"
       ],
-      "date": "6/12/2025",
-      "time": "07:00 PM",
-      "venue": "Union Pool"
+      "date": "6/21/2025",
+      "time": "11:00 PM",
+      "venue": "(Le) Poisson Rouge"
     }
   },
   {
     "name": {
       "artists": [
-        "Midrift",
-        "February",
-        "I Promised The World"
+        "Morgan Seatree"
       ],
-      "date": "8/21/2025",
+      "date": "11/14/2025",
+      "time": "11:00 PM",
+      "venue": "(Le) Poisson Rouge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Yusuf (Cat Stevens)"
+      ],
+      "date": "10/11/2025",
+      "time": "08:00 PM",
+      "venue": "Town Hall"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Neggy Gemmy"
+      ],
+      "date": "6/28/2025",
+      "time": "11:00 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Susannah Joffee"
+      ],
+      "date": "7/10/2025",
+      "time": "06:30 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Garbage Day"
+      ],
+      "date": "7/15/2025",
+      "time": "06:30 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Garbage Day"
+      ],
+      "date": "7/22/2025",
+      "time": "06:30 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Deep Sea Bistro"
+      ],
+      "date": "7/24/2025",
+      "time": "06:30 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Summerdrive",
+        "Telehope"
+      ],
+      "date": "8/30/2025",
+      "time": "07:00 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Wombo"
+      ],
+      "date": "9/12/2025",
+      "time": "07:00 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Maiah Manser"
+      ],
+      "date": "9/14/2025",
+      "time": "06:30 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Brooke Alexx"
+      ],
+      "date": "9/18/2025",
+      "time": "06:30 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Moin"
+      ],
+      "date": "9/20/2025",
+      "time": "07:00 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "NoSo"
+      ],
+      "date": "10/24/2025",
+      "time": "07:00 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Rocket"
+      ],
+      "date": "11/8/2025",
+      "time": "07:00 PM",
+      "venue": "Baby's All Right"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Max Fry"
+      ],
+      "date": "7/5/2025",
       "time": "07:00 PM",
       "venue": "Elsewhere"
     }
@@ -691,1207 +1003,127 @@
   {
     "name": {
       "artists": [
-        "Haley Heynderickx",
-        "Sunflower Bean",
-        "Cut Worms",
-        "River Whyless",
-        "The Mystery Lights",
-        "Camp Saint Helene",
-        "Charming Disaster",
-        "Ryan Lee Crosby",
-        "Driftwood Soldier",
-        "Daughter of the Vine",
-        "Emily Jeanne Brown",
-        "Ongoing",
-        "Kendra McKinley",
-        "Keepsake House",
-        "and more!"
+        "Pop Music Fever Dream",
+        "Pure Adult",
+        "Genre Is Death"
       ],
-      "date": "9/12/2025",
-      "time": "12:00 PM",
-      "venue": "Stone Ridge Orchard"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Nuovo Testamento",
-        "NUXX",
-        "Andi",
-        "Arvin T"
-      ],
-      "date": "7/31/2025",
-      "time": "08:00 PM",
-      "venue": "Good Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Lorde",
-        "The Japanese House",
-        "Chanel Beads"
-      ],
-      "date": "10/1/2025",
+      "date": "7/13/2025",
       "time": "07:00 PM",
-      "venue": "Madison Square Garden"
+      "venue": "Elsewhere"
     }
   },
   {
     "name": {
       "artists": [
-        "Quinn XCII",
-        "Allen Stone"
+        "Jason Schmidt"
       ],
-      "date": "9/10/2025",
-      "time": "08:00 PM",
-      "venue": "Central Park SummerStage"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Wet Leg",
-        "mary in the junkyard"
-      ],
-      "date": "9/18/2025",
+      "date": "7/14/2025",
       "time": "07:00 PM",
-      "venue": "Brooklyn Paramount"
+      "venue": "Elsewhere"
     }
   },
   {
     "name": {
       "artists": [
-        "Yussef Dayes",
-        "FKJ (DJ set)",
-        "Venna",
-        "Salin"
-      ],
-      "date": "7/31/2025",
-      "time": "06:00 PM",
-      "venue": "Central Park SummerStage"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Conner O'Malley"
-      ],
-      "date": "10/23/2025",
-      "time": "09:00 PM",
-      "venue": "White Eagle Hall"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Kim Anh",
-        "Justin Cudmore",
-        "Sound Metaphors",
-        "Mutualism"
-      ],
-      "date": "6/27/2025",
-      "time": "11:00 PM",
-      "venue": "Public Records"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Dustin Zahn",
-        "UMFANG",
-        "Yasmin",
-        "For Future's Sake"
-      ],
-      "date": "6/13/2025",
-      "time": "11:00 PM",
-      "venue": "Public Records"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Arm's Length"
-      ],
-      "date": "5/20/2025",
-      "time": "06:00 PM",
-      "venue": "Rough Trade NYC"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Hard Job",
-        "Famous Logs in History",
-        "OOF"
-      ],
-      "date": "5/30/2025",
-      "time": "08:30 PM",
-      "venue": "Young Ethel's"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Public Practice",
-        "Austin",
-        "Gay Henry"
-      ],
-      "date": "6/7/2025",
-      "time": "07:30 PM",
-      "venue": "Cassette"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Who"
-      ],
-      "date": "8/30/2025",
-      "time": "07:30 PM",
-      "venue": "Madison Square Garden"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Who"
-      ],
-      "date": "8/28/2025",
-      "time": "07:30 PM",
-      "venue": "Jones Beach"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Who"
-      ],
-      "date": "8/19/2025",
-      "time": "07:30 PM",
-      "venue": "Prudential Center"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Sister Nancy",
-        "JonnyGo Figure"
-      ],
-      "date": "6/15/2025",
-      "time": "03:00 PM",
-      "venue": "Public Records"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Buddy System Forever",
-        "Nervous",
-        "Deacon Bill"
-      ],
-      "date": "6/26/2025",
-      "time": "08:00 PM",
-      "venue": "Main Drag Music"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Ace Bandage",
-        "Deni",
-        "Automatom",
-        "0 Conduit"
-      ],
-      "date": "5/22/2025",
-      "time": "06:00 PM",
-      "venue": "The Wood Shop"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Pinc Louds"
-      ],
-      "date": "8/16/2025",
-      "time": "06:30 PM",
-      "venue": "(Le) Poisson Rouge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "James McMurtry"
-      ],
-      "date": "9/20/2025",
-      "time": "06:30 PM",
-      "venue": "(Le) Poisson Rouge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Fin."
-      ],
-      "date": "7/24/2025",
-      "time": "07:00 PM",
-      "venue": "(Le) Poisson Rouge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Gong"
-      ],
-      "date": "9/18/2025",
-      "time": "07:00 PM",
-      "venue": "(Le) Poisson Rouge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Blanco White"
-      ],
-      "date": "9/9/2025",
-      "time": "07:00 PM",
-      "venue": "(Le) Poisson Rouge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Frankie and the Witch Fingers"
-      ],
-      "date": "6/5/2025",
-      "time": "08:00 PM",
-      "venue": "Berlin"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Mipso"
-      ],
-      "date": "9/27/2025",
-      "time": "07:00 PM",
-      "venue": "Music Hall of Williamsburg"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Orville Peck (Stripped Down)"
-      ],
-      "date": "5/19/2025",
-      "time": "09:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Buckcherry",
-        "Pistols at Dawn"
-      ],
-      "date": "7/18/2025",
-      "time": "06:30 PM",
-      "venue": "Starland Ballroom"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Hatebreed",
-        "Fugitive",
-        "Malevolence",
-        "Gridiron",
-        "Snuffed on Sight",
-        "Incite"
-      ],
-      "date": "7/19/2025",
-      "time": "06:30 PM",
-      "venue": "Starland Ballroom"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Space Laces"
-      ],
-      "date": "8/2/2025",
-      "time": "11:00 PM",
-      "venue": "Webster Hall"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "WesGhost"
-      ],
-      "date": "8/2/2025",
-      "time": "09:00 PM",
-      "venue": "Music Hall of Williamsburg"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Mireya Ramos",
-        "Talibah Safiya",
-        "Morley"
-      ],
-      "date": "8/1/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Adrian Quesada",
-        "Trish Toledo"
-      ],
-      "date": "8/8/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Lyricist Lounge (Anniversary Show)"
-      ],
-      "date": "8/9/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "William Parker",
-        "Nikara and Black Wall Street"
-      ],
-      "date": "8/15/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Nick Hakim",
-        "Karriem Riggins (DJ set)"
-      ],
-      "date": "8/16/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Gogol Bordello",
-        "Puzzled Panther",
-        "Pons"
-      ],
-      "date": "8/2/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Wiz (screening)"
-      ],
-      "date": "7/26/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Greatest Night In Pop (screening)",
-        "Rontronik (DJ)"
-      ],
-      "date": "6/27/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Buscabulla",
-        "Chuwi",
-        "Paso Negro"
-      ],
-      "date": "6/26/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Yacine Boulares",
-        "Sofiane Saidi",
-        "Israa Shalaby",
-        "Rasha Nahas",
-        "Yalla! Party Project"
-      ],
-      "date": "6/20/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Ghost-Note",
-        "DJ Flash Gordon Parks"
-      ],
-      "date": "6/19/2025",
-      "time": "05:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Melissa Laveaux",
-        "Nathalie ‘TALIE’ Cerin"
-      ],
-      "date": "6/13/2025",
-      "time": "06:00 PM",
-      "venue": "Lena Horne Bandshell (Prospect Park)"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Ichika Nito"
-      ],
-      "date": "5/24/2025",
-      "time": "07:30 PM",
-      "venue": "Gramercy Theatre"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Descendents",
-        "Teen Mortgage",
-        "Liquid Mike"
-      ],
-      "date": "8/2/2025",
-      "time": "08:00 PM",
-      "venue": "The Wellmont Theater"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "John Waters (Christmas)"
-      ],
-      "date": "12/22/2025",
-      "time": "08:00 PM",
-      "venue": "City Winery"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "John Waters (Christmas)"
-      ],
-      "date": "12/21/2025",
-      "time": "08:00 PM",
-      "venue": "City Winery"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Cannibal Corpse",
-        "Municipal Waste",
-        "Fulci"
-      ],
-      "date": "10/18/2025",
-      "time": "07:00 PM",
-      "venue": "Starland Ballroom"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Cannibal Corpse",
-        "Municipal Waste",
-        "Fulci"
-      ],
-      "date": "10/17/2025",
-      "time": "07:00 PM",
-      "venue": "The Paramount"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Benitt"
-      ],
-      "date": "5/28/2025",
-      "time": "06:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Talli Sow",
-        "GRBGE_GRL",
-        "thexvigod"
-      ],
-      "date": "5/15/2025",
-      "time": "11:00 PM",
-      "venue": "ALPHAVILLE"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Pale Ramon",
-        "Stuart Bogie",
-        "Casual Male"
-      ],
-      "date": "5/28/2025",
-      "time": "07:00 PM",
-      "venue": "The Sultan Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Stop Light Observations"
-      ],
-      "date": "9/24/2025",
-      "time": "07:00 PM",
-      "venue": "The Sultan Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Charlie Burg"
-      ],
-      "date": "6/18/2025",
-      "time": "07:00 PM",
-      "venue": "Public Records"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Charlie Burg"
-      ],
-      "date": "6/10/2025",
-      "time": "07:00 PM",
-      "venue": "Public Records"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Chemical Brothers (DJ set)"
-      ],
-      "date": "9/18/2025",
-      "time": "10:00 PM",
-      "venue": "Knockdown Center"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Pixel Grip"
-      ],
-      "date": "10/4/2025",
-      "time": "07:00 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Couvo",
-        "Bindy",
-        "Russian Baths"
-      ],
-      "date": "5/14/2025",
-      "time": "07:00 PM",
-      "venue": "The Bowery Electric"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Gary Lucas & Gods & Monsters"
-      ],
-      "date": "8/7/2025",
-      "time": "07:00 PM",
-      "venue": "Joe's Pub"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Wheatus"
-      ],
-      "date": "8/29/2025",
-      "time": "08:00 PM",
-      "venue": "Crossroads"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Tim Barry",
-        "Laura Stevenson",
-        "Jonathan Francis"
-      ],
-      "date": "8/9/2025",
-      "time": "08:00 PM",
-      "venue": "Crossroads"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Lawrence Arms",
-        "ERRTH",
-        "Get The Net"
-      ],
-      "date": "6/21/2025",
-      "time": "08:00 PM",
-      "venue": "Crossroads"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Laura Jane Grace",
-        "Rodeo Boys",
-        "Young and Doomed"
-      ],
-      "date": "6/13/2025",
-      "time": "08:00 PM",
-      "venue": "Crossroads"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Youth Large",
-        "Whirlybird",
-        "Volena"
-      ],
-      "date": "5/15/2025",
-      "time": "07:00 PM",
-      "venue": "Stone Circle Theatre"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Bellcave",
-        "Libby Quinn",
-        "Boyfriend Network"
-      ],
-      "date": "7/5/2025",
-      "time": "07:00 PM",
-      "venue": "Stone Circle Theatre"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Superfan",
-        "Post Office Winter",
-        "Deerest Friends"
-      ],
-      "date": "8/10/2025",
-      "time": "07:00 PM",
-      "venue": "Stone Circle Theatre"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Craig Finn"
-      ],
-      "date": "6/3/2025",
-      "time": "06:00 PM",
-      "venue": "Rough Trade NYC"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Painted Zeros",
-        "AK & the Hallucinations",
-        "Bueno"
-      ],
-      "date": "5/18/2025",
-      "time": "07:30 PM",
-      "venue": "Bar Freda"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Drummers Can Achieve",
-        "Vestments",
-        "Yes Ma'am"
-      ],
-      "date": "6/5/2025",
-      "time": "08:00 PM",
-      "venue": "Bar Freda"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Oso Oso"
-      ],
-      "date": "9/17/2025",
-      "time": "07:00 PM",
-      "venue": "(Le) Poisson Rouge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "MSPAINT",
-        "Lip Critic",
-        "Pat and the Pissers"
-      ],
-      "date": "7/19/2025",
-      "time": "07:00 PM",
-      "venue": "Market Hotel"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Souls of Mischief"
+        "Tsu Nami"
       ],
       "date": "7/20/2025",
       "time": "07:00 PM",
-      "venue": "House of Independents"
+      "venue": "Elsewhere"
     }
   },
   {
     "name": {
       "artists": [
-        "Spike and the Gimme Gimmes",
-        "The Schizophonics",
-        "Kate Clover"
-      ],
-      "date": "8/3/2025",
-      "time": "07:00 PM",
-      "venue": "Asbury Lanes"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Pachyman",
-        "MNDSGN"
-      ],
-      "date": "10/8/2025",
-      "time": "07:00 PM",
-      "venue": "Music Hall of Williamsburg"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Conner O'Malley"
-      ],
-      "date": "10/23/2025",
-      "time": "05:00 PM",
-      "venue": "White Eagle Hall"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "GoldFord"
-      ],
-      "date": "8/30/2025",
-      "time": "07:00 PM",
-      "venue": "White Eagle Hall"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "John Roseboro"
-      ],
-      "date": "6/4/2025",
-      "time": "08:00 PM",
-      "venue": "National Sawdust"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Succubass",
-        "James Bangura",
-        "Razrbark",
-        "Lauren Flax",
-        "Day Cart",
-        "Wig-Wam"
-      ],
-      "date": "5/30/2025",
-      "time": "10:00 PM",
-      "venue": "Good Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Quantic"
-      ],
-      "date": "6/7/2025",
-      "time": "10:00 PM",
-      "venue": "Good Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Douglas Sherman",
-        "Joey Llanos",
-        "papa jazz",
-        "Heidy P"
-      ],
-      "date": "6/13/2025",
-      "time": "10:00 PM",
-      "venue": "Good Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Honcho",
-        "Tammy Lakkis",
-        "Kandylion"
-      ],
-      "date": "6/27/2025",
-      "time": "10:00 PM",
-      "venue": "Good Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Kuniyuki",
-        "Toshiya Kawasaki",
-        "Jacques Renault"
-      ],
-      "date": "7/3/2025",
-      "time": "10:00 PM",
-      "venue": "Good Room"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Guerilla Toss"
-      ],
-      "date": "10/16/2025",
-      "time": "08:00 PM",
-      "venue": "Brooklyn Bowl"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Grateful Shred"
-      ],
-      "date": "10/31/2025",
-      "time": "08:00 PM",
-      "venue": "The Capitol Theatre"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Clone",
-        "Catatonic Suns",
-        "Servants",
-        "City Ice"
-      ],
-      "date": "6/21/2025",
-      "time": "08:00 PM",
-      "venue": "Main Drag Music"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Manas",
-        "Chepang",
-        "Monika Khot",
-        "Ember Vaughan-Lee",
-        "Qiujiang Levi Lu"
-      ],
-      "date": "6/9/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Manas",
-        "Zoh Amba",
-        "Blase",
-        "Blacks' Myths"
-      ],
-      "date": "6/8/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Haggus",
-        "Bowel Erosion",
-        "Ferment",
-        "Blemish"
-      ],
-      "date": "6/1/2025",
-      "time": "07:00 PM",
-      "venue": "Trans-Pecos"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Doren",
-        "Signal Coast",
-        "Code Smith"
-      ],
-      "date": "6/4/2025",
-      "time": "08:00 PM",
-      "venue": "Purgatory"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Fashion",
-        "Or Best Offer",
-        "Hoca Christ Devil",
-        "Nibiru"
-      ],
-      "date": "5/26/2025",
-      "time": "07:00 PM",
-      "venue": "Purgatory"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Simple Plan",
-        "3oh!3",
-        "Bowling for Soup",
-        "LOLO"
-      ],
-      "date": "8/27/2025",
-      "time": "04:30 PM",
-      "venue": "Stone Pony"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Duckwrth"
-      ],
-      "date": "9/10/2025",
-      "time": "07:00 PM",
-      "venue": "Music Hall of Williamsburg"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Beeyotch",
-        "Telehealth",
-        "Firstsex",
-        "Pippy"
-      ],
-      "date": "6/17/2025",
-      "time": "07:00 PM",
-      "venue": "Our Wicked Lady"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Shower Beers",
-        "FRND CRCL",
-        "Scooped Up",
-        "3 Day Weekend"
-      ],
-      "date": "6/28/2025",
-      "time": "07:30 PM",
-      "venue": "Berlin"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Mouthy Baby",
-        "Shyness",
-        "Gold Stars For Everyone"
-      ],
-      "date": "7/30/2025",
-      "time": "08:00 PM",
-      "venue": "Berlin"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Coffin Daggers",
-        "Wiped Out",
-        "The Memphis Morticians",
-        "Dr. Ex & The Break-Ups"
+        "Lyrah"
       ],
       "date": "7/26/2025",
-      "time": "06:00 PM",
-      "venue": "The Meadows"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "We Lost The Sea",
-        "Hubris"
-      ],
-      "date": "7/19/2025",
-      "time": "06:00 PM",
-      "venue": "The Meadows"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Boxrooster"
-      ],
-      "date": "6/27/2025",
-      "time": "09:00 PM",
-      "venue": "Mercury Lounge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Calista Garcia",
-        "Charlie and the Darlings",
-        "Zoe Arora"
-      ],
-      "date": "6/19/2025",
-      "time": "09:00 PM",
-      "venue": "Mercury Lounge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "John K"
-      ],
-      "date": "8/21/2025",
-      "time": "06:00 PM",
-      "venue": "Mercury Lounge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Couvo",
-        "Ok Tyler",
-        "Hipsy Gap"
-      ],
-      "date": "7/16/2025",
-      "time": "06:00 PM",
-      "venue": "Mercury Lounge"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Torture and the Desert Spiders"
-      ],
-      "date": "5/27/2025",
       "time": "07:00 PM",
-      "venue": "Baker Falls"
+      "venue": "Elsewhere"
     }
   },
   {
     "name": {
       "artists": [
-        "Sam Larson",
-        "Canine Wedding",
-        "Dog Park"
+        "Pretty Girl (DJ set)"
       ],
-      "date": "5/22/2025",
-      "time": "07:30 PM",
-      "venue": "Baker Falls"
+      "date": "8/2/2025",
+      "time": "10:30 PM",
+      "venue": "Elsewhere"
     }
   },
   {
     "name": {
       "artists": [
-        "Torture and the Desert Spiders"
+        "Avery Friedman",
+        "Thomas Flynn",
+        "Hudson Freeman"
       ],
-      "date": "5/20/2025",
+      "date": "8/10/2025",
       "time": "07:00 PM",
-      "venue": "Baker Falls"
+      "venue": "Elsewhere"
     }
   },
   {
     "name": {
       "artists": [
-        "Sympathy Flowers"
+        "PLS&TY"
       ],
-      "date": "8/13/2025",
+      "date": "8/16/2025",
+      "time": "10:30 PM",
+      "venue": "Elsewhere"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Girl Ultra",
+        "Petite Amie"
+      ],
+      "date": "8/23/2025",
       "time": "07:00 PM",
-      "venue": "TV EYE"
+      "venue": "Elsewhere"
     }
   },
   {
     "name": {
       "artists": [
-        "Mourning [A] BLKstar",
-        "Fatboi Sharif",
-        "Yaz Lancaster"
+        "Cherub"
       ],
-      "date": "6/2/2025",
+      "date": "9/4/2025",
+      "time": "08:00 PM",
+      "venue": "Elsewhere"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Winter",
+        "Hooky"
+      ],
+      "date": "10/30/2025",
       "time": "07:00 PM",
-      "venue": "TV EYE"
+      "venue": "Elsewhere"
     }
   },
   {
     "name": {
       "artists": [
-        "George Clinton & Parliament Funkadelic"
+        "Dargz"
       ],
-      "date": "8/22/2025",
+      "date": "11/8/2025",
+      "time": "07:00 PM",
+      "venue": "Elsewhere"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Toad the Wet Sprocket",
+        "KT Tunstall",
+        "Vertical Horizon"
+      ],
+      "date": "10/10/2025",
       "time": "08:00 PM",
       "venue": "Palladium Times Square"
     }
@@ -1899,34 +1131,116 @@
   {
     "name": {
       "artists": [
-        "Blind Guardian",
-        "Ensiferum",
-        "Seven Kingdoms"
+        "Ozomatli"
       ],
-      "date": "11/25/2025",
-      "time": "06:30 PM",
-      "venue": "Irving Plaza"
+      "date": "8/12/2025",
+      "time": "08:00 PM",
+      "venue": "Sony Hall"
     }
   },
   {
     "name": {
       "artists": [
-        "Landmvrks",
-        "Thornhill",
-        "Silly Goose",
-        "Resolve"
+        "Ana Popovic"
       ],
-      "date": "9/16/2025",
+      "date": "10/1/2025",
+      "time": "08:00 PM",
+      "venue": "Sony Hall"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Sydney Sprague"
+      ],
+      "date": "11/6/2025",
       "time": "06:00 PM",
-      "venue": "Irving Plaza"
+      "venue": "Mercury Lounge"
     }
   },
   {
     "name": {
       "artists": [
-        "Kevin Gates"
+        "Doublecamp"
       ],
-      "date": "10/3/2025",
+      "date": "10/21/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Christian Sparacio",
+        "Walkney"
+      ],
+      "date": "7/12/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Azul",
+        "Rachel Despard"
+      ],
+      "date": "6/29/2025",
+      "time": "05:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "GBH",
+        "Slaughterhouse",
+        "The Mainliners"
+      ],
+      "date": "11/7/2025",
+      "time": "07:00 PM",
+      "venue": "Gramercy Theatre"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Jake Scott",
+        "MaRynn Taylor"
+      ],
+      "date": "8/16/2025",
+      "time": "07:00 PM",
+      "venue": "Gramercy Theatre"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Chevy Metal"
+      ],
+      "date": "7/24/2025",
+      "time": "07:00 PM",
+      "venue": "Gramercy Theatre"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Carbon Leaf"
+      ],
+      "date": "11/14/2025",
+      "time": "07:00 PM",
+      "venue": "Racket"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Emotional Oranges",
+        "Evan Fong",
+        "N3WYRKLA"
+      ],
+      "date": "9/17/2025",
       "time": "07:00 PM",
       "venue": "Brooklyn Paramount"
     }
@@ -1934,291 +1248,222 @@
   {
     "name": {
       "artists": [
-        "NewDad",
-        "Zackery"
+        "Hunx & His Punx"
       ],
-      "date": "8/6/2025",
+      "date": "9/9/2025",
       "time": "07:00 PM",
-      "venue": "Music Hall of Williamsburg"
+      "venue": "Warsaw"
     }
   },
   {
     "name": {
       "artists": [
-        "Soulection"
+        "The Psychedelic Furs",
+        "Gary Numan"
       ],
-      "date": "7/27/2025",
-      "time": "02:00 PM",
-      "venue": "Flushing Meadows-Corona Park"
+      "date": "10/11/2025",
+      "time": "07:00 PM",
+      "venue": "The Paramount"
     }
   },
   {
     "name": {
       "artists": [
-        "Grandaddy",
-        "Greg Freeman"
+        "The Psychedelic Furs",
+        "Gary Numan"
       ],
-      "date": "10/15/2025",
+      "date": "10/19/2025",
       "time": "07:00 PM",
+      "venue": "Brooklyn Paramount"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Themba"
+      ],
+      "date": "8/16/2025",
+      "time": "10:00 PM",
+      "venue": "Avant Gardner"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Marjorine",
+        "Argo and the Violet Queens",
+        "City Ice"
+      ],
+      "date": "6/7/2025",
+      "time": "07:00 PM",
+      "venue": "ALPHAVILLE"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "The Croaks",
+        "Mairead Band",
+        "Hard Nips",
+        "Superblush"
+      ],
+      "date": "7/17/2025",
+      "time": "07:00 PM",
+      "venue": "ALPHAVILLE"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Jigitz"
+      ],
+      "date": "10/18/2025",
+      "time": "11:00 PM",
+      "venue": "Webster Hall"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Attack Attack",
+        "Savage Hands",
+        "Versus Me"
+      ],
+      "date": "8/17/2025",
+      "time": "06:00 PM",
+      "venue": "Racket"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Jukebox The Ghost"
+      ],
+      "date": "10/31/2025",
+      "time": "08:00 PM",
       "venue": "Brooklyn Steel"
     }
   },
   {
     "name": {
       "artists": [
-        "Bladee",
-        "Nettspend",
-        "bôa",
-        "Black Kray"
-      ],
-      "date": "10/3/2025",
-      "time": "06:30 PM",
-      "venue": "Under the K Bridge Park"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Pom-Poms",
-        "Ricky Eat Acid",
-        "Jack Powers"
-      ],
-      "date": "7/24/2025",
-      "time": "07:00 PM",
-      "venue": "Elsewhere"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Mustard Service",
-        "Strawberry Milk Cult"
-      ],
-      "date": "8/5/2025",
-      "time": "08:00 PM",
-      "venue": "Elsewhere"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Rob Thomas",
-        "A Great Big World"
-      ],
-      "date": "8/12/2025",
-      "time": "07:00 PM",
-      "venue": "The Rooftop at Pier 17"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Michael Cera Palin",
-        "Oolong",
-        "Ogbert The Nerd"
-      ],
-      "date": "8/16/2025",
-      "time": "07:00 PM",
-      "venue": "Elsewhere"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Surfer Girl",
-        "Bikini Trill",
-        "Tessellated"
-      ],
-      "date": "10/12/2025",
-      "time": "08:00 PM",
-      "venue": "Elsewhere"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "By Storm",
-        "LA Timpa"
-      ],
-      "date": "5/17/2025",
-      "time": "07:00 PM",
-      "venue": "Night Club 101"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Meh",
-        "prettygirlswatching",
-        "Kiki Kramer"
-      ],
-      "date": "5/13/2025",
-      "time": "10:00 PM",
-      "venue": "Night Club 101"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Becky and the Birds"
-      ],
-      "date": "7/23/2025",
-      "time": "10:00 PM",
-      "venue": "Night Club 101"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Rose Gray"
-      ],
-      "date": "8/12/2025",
-      "time": "10:00 PM",
-      "venue": "Night Club 101"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Foreign Air"
-      ],
-      "date": "8/20/2025",
-      "time": "07:00 PM",
-      "venue": "Night Club 101"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "54 Ultra"
-      ],
-      "date": "6/1/2025",
-      "time": "06:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Nate Sib",
-        "kimj"
-      ],
-      "date": "6/3/2025",
-      "time": "06:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Pig Milk",
-        "Jack Flowers and the Petal Tones"
-      ],
-      "date": "6/7/2025",
-      "time": "07:00 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "John Gallagher Jr."
+        "Foreign Love Language",
+        "Slow Collision",
+        "Mallaigh Ashton",
+        "Felicity Paige"
       ],
       "date": "6/22/2025",
-      "time": "09:30 PM",
-      "venue": "Baby's All Right"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Michael Seyer"
-      ],
-      "date": "8/2/2025",
       "time": "07:00 PM",
-      "venue": "Baby's All Right"
+      "venue": "Arlene's Grocery"
     }
   },
   {
     "name": {
       "artists": [
-        "Requisit",
-        "Alive Girl",
-        "Godstar Megamax"
+        "OXA",
+        "Nina del Rio",
+        "Georgia Wright",
+        "Siobhan"
       ],
-      "date": "5/31/2025",
+      "date": "6/17/2025",
       "time": "07:00 PM",
-      "venue": "ALPHAVILLE"
+      "venue": "Arlene's Grocery"
     }
   },
   {
     "name": {
       "artists": [
-        "Bummer Camp",
-        "Gardenia",
-        "Cloakz",
-        "Alyx Astryx"
-      ],
-      "date": "6/5/2025",
-      "time": "08:00 PM",
-      "venue": "ALPHAVILLE"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Charlotte de Witte"
-      ],
-      "date": "5/23/2025",
-      "time": "10:00 PM",
-      "venue": "99 Scott"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Lyd Marie",
-        "Sarah Anjali",
-        "Crys"
-      ],
-      "date": "6/2/2025",
-      "time": "07:00 PM",
-      "venue": "Sleepwalk"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Spayce Raynger",
-        "Jonah Wallach",
-        "Pleasant Peasant",
-        "Brainrot Mafia"
-      ],
-      "date": "5/29/2025",
-      "time": "07:00 PM",
-      "venue": "Our Wicked Lady"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "The Tines",
-        "Mickey Blurr",
-        "Soft Fangs"
-      ],
-      "date": "7/19/2025",
-      "time": "07:00 PM",
-      "venue": "Sleepwalk"
-    }
-  },
-  {
-    "name": {
-      "artists": [
-        "Leah Rando",
-        "Erik Romero",
-        "Carol"
+        "Bella Rocha",
+        "Son of Jacob",
+        "Anjoli Simone"
       ],
       "date": "6/8/2025",
+      "time": "08:00 PM",
+      "venue": "Arlene's Grocery"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "X&ND",
+        "Dennis",
+        "Megan Black"
+      ],
+      "date": "6/3/2025",
+      "time": "07:00 PM",
+      "venue": "Arlene's Grocery"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Apollo Red"
+      ],
+      "date": "6/26/2025",
+      "time": "07:00 PM",
+      "venue": "Market Hotel"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Groupie",
+        "Debbie Dopamine",
+        "Jelly Kelly",
+        "Go Home"
+      ],
+      "date": "6/12/2025",
+      "time": "07:00 PM",
+      "venue": "ALPHAVILLE"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "MK Ultra",
+        "Take It Dee Dee",
+        "Barbarian Law",
+        "Jay's Gritty Bastards"
+      ],
+      "date": "6/29/2025",
+      "time": "03:00 PM",
+      "venue": "Maker Park Radio"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Desert Sharks",
+        "Shred Flintstone",
+        "The Dracu-Las",
+        "Post No Bills"
+      ],
+      "date": "6/28/2025",
+      "time": "03:00 PM",
+      "venue": "Maker Park Radio"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Goddamn Wrecks",
+        "Jon Caspi & The First Gun",
+        "Hasty",
+        "No Call No Show"
+      ],
+      "date": "6/22/2025",
+      "time": "03:00 PM",
+      "venue": "Maker Park Radio"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Editrix",
+        "Antinomie",
+        "Rong"
+      ],
+      "date": "6/1/2025",
       "time": "07:30 PM",
       "venue": "Cassette"
     }
@@ -2226,26 +1471,1012 @@
   {
     "name": {
       "artists": [
-        "BASIC",
-        "Animal",
-        "Surrender!",
-        "Mikey Coltun"
+        "Electric Citizen"
+      ],
+      "date": "7/18/2025",
+      "time": "07:00 PM",
+      "venue": "TV EYE"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Dylan Gossett"
+      ],
+      "date": "9/25/2025",
+      "time": "06:00 PM",
+      "venue": "Brooklyn Paramount"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Cab Ellis"
+      ],
+      "date": "6/30/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Cab Ellis"
+      ],
+      "date": "6/16/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Cab Ellis"
+      ],
+      "date": "6/2/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Home Is Where"
+      ],
+      "date": "10/5/2025",
+      "time": "07:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Lightning Bolt"
+      ],
+      "date": "9/21/2025",
+      "time": "06:00 PM",
+      "venue": "Knockdown Center"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Lightning Bolt"
+      ],
+      "date": "10/2/2025",
+      "time": "08:00 PM",
+      "venue": "White Eagle Hall"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "THICK",
+        "Secret Fox",
+        "Iridescent Pools",
+        "Toxic Toast",
+        "Toxic Tito"
+      ],
+      "date": "6/21/2025",
+      "time": "06:00 PM",
+      "venue": "Maker Park Radio"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Buzzcocks"
+      ],
+      "date": "9/27/2025",
+      "time": "11:00 PM",
+      "venue": "Brooklyn Bowl"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Matt Berninger (of The National)"
+      ],
+      "date": "5/31/2025",
+      "time": "03:00 PM",
+      "venue": "Rough Trade NYC"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Se So Neon"
+      ],
+      "date": "9/9/2025",
+      "time": "07:00 PM",
+      "venue": "Brooklyn Steel"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Fly By Midnight"
+      ],
+      "date": "9/26/2025",
+      "time": "07:00 PM",
+      "venue": "Gramercy Theatre"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Wetsuit",
+        "Couvo",
+        "Elora"
+      ],
+      "date": "5/24/2025",
+      "time": "07:00 PM",
+      "venue": "Sleepwalk"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "ASTROPICAL (members of Bomba Estéreo and Rawayana)"
+      ],
+      "date": "5/31/2025",
+      "time": "07:00 PM",
+      "venue": "Brooklyn Paramount"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Gustafer",
+        "Spencer Arjang",
+        "Fran",
+        "Matilde Heckler"
+      ],
+      "date": "5/22/2025",
+      "time": "07:00 PM",
+      "venue": "The Bowery Electric"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Wolf Alice"
+      ],
+      "date": "9/19/2025",
+      "time": "07:00 PM",
+      "venue": "Brooklyn Paramount"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Jesse Welles",
+        "Middle"
+      ],
+      "date": "11/21/2025",
+      "time": "06:30 PM",
+      "venue": "Webster Hall"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Jeff Goldblum and the Mildred Snitzer Orchestra"
+      ],
+      "date": "6/1/2025",
+      "time": "08:15 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Jeff Goldblum and the Mildred Snitzer Orchestra"
+      ],
+      "date": "6/1/2025",
+      "time": "05:30 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Vial",
+        "Shilpa Ray",
+        "Um, Jennifer?",
+        "Crush Fund",
+        "Desert Sharks"
+      ],
+      "date": "6/14/2025",
+      "time": "02:00 PM",
+      "venue": "Tompkins Square Park"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Rufus Wainwright",
+        "Patti LuPone",
+        "Sara Bareilles",
+        "Darren Criss"
+      ],
+      "date": "9/15/2025",
+      "time": "07:30 PM",
+      "venue": "Town Hall"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Glass Spells",
+        "Dark Chisme"
+      ],
+      "date": "9/7/2025",
+      "time": "06:30 PM",
+      "venue": "The Meadows"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Gridiron"
+      ],
+      "date": "6/21/2025",
+      "time": "02:00 PM",
+      "venue": "Rough Trade NYC"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Laszewo"
+      ],
+      "date": "7/26/2025",
+      "time": "04:00 PM",
+      "venue": "Superior Ingredients"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Laurie Sara-Smith",
+        "Danger Boss",
+        "Autobahn"
+      ],
+      "date": "5/25/2025",
+      "time": "08:00 PM",
+      "venue": "Purgatory"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Planning For Burial",
+        "Psalm",
+        "Masoller"
+      ],
+      "date": "8/8/2025",
+      "time": "07:00 PM",
+      "venue": "TV EYE"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Trevor Noah"
+      ],
+      "date": "5/28/2025",
+      "time": "07:00 PM",
+      "venue": "Roulette"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Femcel",
+        "Girls Can't Skate",
+        "ITG.URL",
+        "Plastic Baby Jesus"
+      ],
+      "date": "5/25/2025",
+      "time": "07:00 PM",
+      "venue": "The Broadway"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Alex G",
+        "Nilüfer Yanya"
+      ],
+      "date": "10/8/2025",
+      "time": "08:00 PM",
+      "venue": "Radio City Music Hall"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Mila Moon",
+        "My Guitar Is Trying To Kill Me",
+        "Personal Injury"
       ],
       "date": "6/27/2025",
+      "time": "07:00 PM",
+      "venue": "The Broadway"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Asher White",
+        "Diary",
+        "Panik Flower"
+      ],
+      "date": "7/24/2025",
+      "time": "07:00 PM",
+      "venue": "ALPHAVILLE"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Mo Yung",
+        "Mahogany",
+        "Heaven"
+      ],
+      "date": "6/19/2025",
+      "time": "07:00 PM",
+      "venue": "ALPHAVILLE"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Dermot Kennedy"
+      ],
+      "date": "10/27/2025",
+      "time": "07:00 PM",
+      "venue": "Brooklyn Paramount"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Aux Blood",
+        "Heaven Slight",
+        "Bounty"
+      ],
+      "date": "6/19/2025",
+      "time": "07:00 PM",
+      "venue": "Sleepwalk"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Busy's Dead Collective"
+      ],
+      "date": "6/7/2025",
+      "time": "07:00 PM",
+      "venue": "Union Pool"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Blackbraid",
+        "Lamp of Murmuur",
+        "Dodsrit"
+      ],
+      "date": "9/27/2025",
+      "time": "06:30 PM",
+      "venue": "The Meadows"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Autograf"
+      ],
+      "date": "9/19/2025",
+      "time": "10:00 PM",
+      "venue": "SILO Brooklyn"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "408"
+      ],
+      "date": "6/12/2025",
       "time": "06:00 PM",
+      "venue": "The Meadows"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Foreign Love Language",
+        "Chismo",
+        "Pretty Name"
+      ],
+      "date": "5/30/2025",
+      "time": "07:00 PM",
+      "venue": "Gold Sounds"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Nuclear Family Fantasy",
+        "Tough Darling",
+        "PartyOwl"
+      ],
+      "date": "5/25/2025",
+      "time": "07:00 PM",
+      "venue": "Sleepwalk"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Tiki Disco"
+      ],
+      "date": "6/1/2025",
+      "time": "02:00 PM",
+      "venue": "Knockdown Center"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Carmen Perry (Remember Sports)",
+        "Ben Special"
+      ],
+      "date": "6/14/2025",
+      "time": "07:00 PM",
+      "venue": "Union Pool"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Arthur Moon"
+      ],
+      "date": "7/19/2025",
+      "time": "07:00 PM",
+      "venue": "Public Records"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Georgia Parker",
+        "Nate Daviau"
+      ],
+      "date": "6/3/2025",
+      "time": "07:00 PM",
       "venue": "The Sultan Room"
     }
   },
   {
     "name": {
       "artists": [
-        "Dan Deacon",
-        "Snõõper",
-        "Balaclava"
+        "Radio Free Alice"
+      ],
+      "date": "9/12/2025",
+      "time": "07:00 PM",
+      "venue": "Union Pool"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Toner",
+        "Bedridden"
+      ],
+      "date": "6/22/2025",
+      "time": "08:00 PM",
+      "venue": "Elsewhere"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Brent Cobb"
+      ],
+      "date": "10/13/2025",
+      "time": "07:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "The Long Losts",
+        "The Brickbats"
+      ],
+      "date": "8/28/2025",
+      "time": "07:00 PM",
+      "venue": "TV EYE"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "45 Grave",
+        "Vision Video",
+        "Nox Novacula",
+        "Altar de Fey",
+        "Octavian Winters"
+      ],
+      "date": "8/30/2025",
+      "time": "06:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Pink Turns Blue",
+        "Ritual Howls",
+        "Then Comes Silence",
+        "Astari Nite",
+        "Hallowed Hearts"
+      ],
+      "date": "8/29/2025",
+      "time": "06:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Tanner Usrey"
+      ],
+      "date": "8/10/2025",
+      "time": "07:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Maye"
       ],
       "date": "7/11/2025",
+      "time": "08:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "The Bug Club",
+        "Omni"
+      ],
+      "date": "6/26/2025",
+      "time": "08:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "9th St. Groove",
+        "Getting Started"
+      ],
+      "date": "6/6/2025",
+      "time": "08:00 PM",
+      "venue": "Bowery Ballroom"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Chris Urriola",
+        "Lisa Chiodo"
+      ],
+      "date": "6/25/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Kevian Kraemer"
+      ],
+      "date": "7/9/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Wic Whitney"
+      ],
+      "date": "7/8/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Abi Carter"
+      ],
+      "date": "11/1/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Casey Lowery"
+      ],
+      "date": "11/20/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Gavin James"
+      ],
+      "date": "9/24/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "English Teacher"
+      ],
+      "date": "9/24/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "The Last Revel"
+      ],
+      "date": "9/20/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "The Dreggs"
+      ],
+      "date": "9/17/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Kamiyada+",
+        "Lit Lords"
+      ],
+      "date": "9/7/2025",
+      "time": "08:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Caskey",
+        "ClicKlak"
+      ],
+      "date": "8/24/2025",
+      "time": "08:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Old Mervs"
+      ],
+      "date": "8/9/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Vandoliers"
+      ],
+      "date": "8/7/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Ellise"
+      ],
+      "date": "8/5/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "marQ"
+      ],
+      "date": "8/3/2025",
       "time": "05:00 PM",
-      "venue": "Maker Park Radio"
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Winyah"
+      ],
+      "date": "7/18/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Jameson Tank"
+      ],
+      "date": "7/17/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "AViVA",
+        "Demi the Daredevil"
+      ],
+      "date": "7/15/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Billy Allen",
+        "The Pollies"
+      ],
+      "date": "6/20/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Nafeesisboujee"
+      ],
+      "date": "6/14/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Wussy",
+        "Wormburner"
+      ],
+      "date": "6/12/2025",
+      "time": "07:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Blithe",
+        "Seamstress",
+        "Koi",
+        "Anything Ever"
+      ],
+      "date": "6/9/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Ringpop",
+        "Lake Drive",
+        "isitjosh"
+      ],
+      "date": "6/22/2025",
+      "time": "05:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Zach Person"
+      ],
+      "date": "6/21/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Jules Daud",
+        "Sami Cuervo"
+      ],
+      "date": "5/27/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Ryan Ellis",
+        "Lee Vasi"
+      ],
+      "date": "5/26/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Izzy Pingrey"
+      ],
+      "date": "6/2/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Necron 9",
+        "Cicada",
+        "Destruxion America",
+        "TAZ",
+        "Abism"
+      ],
+      "date": "6/1/2025",
+      "time": "07:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Max Diaz",
+        "Missing Persons"
+      ],
+      "date": "5/31/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Logan Crosby"
+      ],
+      "date": "5/29/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Nish",
+        "Nory",
+        "Aisha Sharif",
+        "Kitchen Sink"
+      ],
+      "date": "5/29/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Protect"
+      ],
+      "date": "6/6/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Joe Kaplow",
+        "Max Jury"
+      ],
+      "date": "6/5/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Matt Duncan"
+      ],
+      "date": "5/24/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "L.O.T.I.O.N.",
+        "Decept",
+        "Arson",
+        "Boiled Angel (DJ)"
+      ],
+      "date": "5/23/2025",
+      "time": "09:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Isadora Ava",
+        "Double Standard"
+      ],
+      "date": "5/22/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "John Roberts",
+        "Miss Guy"
+      ],
+      "date": "5/21/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
+    }
+  },
+  {
+    "name": {
+      "artists": [
+        "Amy Millan (of Stars)"
+      ],
+      "date": "10/3/2025",
+      "time": "06:00 PM",
+      "venue": "Mercury Lounge"
     }
   }
 ]
